@@ -87,7 +87,7 @@ _axios.interceptors.response.use(
       }
       Vue.prototype.$toast.clear()
     } else if (error.message === 'alreadySent') {
-      console.log('alreadySent')
+      // console.log('alreadySent')
     } else {
       Vue.prototype.$toast('网络出错，请重试')
     }

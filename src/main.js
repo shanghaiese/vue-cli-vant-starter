@@ -5,6 +5,7 @@ import { Toast } from 'vant'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import './assets/css/_main.less'
 
 Vue.use(Toast)
 
